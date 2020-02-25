@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HelpingHands</string>
+    <string-array name="Districts">
+        <item>SELECT UR DISTRICT</item>
+        <item>ANANTAPUR</item>
+        <item>CHITTOOR</item>
+        <item>EAST GODAVARI</item>
+        <item>GUNTUR</item>
+        <item>KADAPA</item>
+        <item>KRISHNA</item>
+        <item>KURNOOL</item>
+        <item>NELLORE</item>
+        <item>PRAKASAM</item>
+        <item>SRIKAKULAM</item>
+        <item>VISAKAPATNAM</item>
+        <item>VIZIANAGARAM</item>
+        <item>WESTGODAVARI</item>
+
+
+    </string-array>
+    <string-array name="Organizations">
+        <item>SELECT UR ORGANIZATION</item>
+
+
+    </string-array>
+
+
+</resources>

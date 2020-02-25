@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VolunteerRegistration">
+    <TextView
+        android:id="@+id/volunteerreg"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="VOLUNTEER REGISTRATION"
+        android:textColor="#5496D8"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Your Name"
+        android:id="@+id/vname"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Mobile Number"
+        android:id="@+id/vmobileno"
+        android:layout_marginTop="20dp"
+        android:inputType="phone"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your  Alternate Mobile Number"
+        android:id="@+id/valternate"
+        android:layout_marginTop="20dp"
+        android:inputType="phone"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email Id"
+        android:layout_marginTop="20dp"
+        android:id="@+id/vemailid"
+        android:inputType="textEmailAddress"
+        />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter Your Address"
+       android:layout_marginTop="10dp"
+       android:id="@+id/vaddress"/>
+    <Spinner
+        android:id="@+id/sp"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:entries="@array/Districts" />
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:id="@+id/vsubmit"
+        android:text="SUBMIT"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="normal" />
+
+</LinearLayout>

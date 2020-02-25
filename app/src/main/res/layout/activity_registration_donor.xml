@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationDonor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="DONOR REGISTRATION"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/donor"
+        android:textColor="#5496D8"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Your Name"
+        android:inputType="textCapWords"
+        android:id="@+id/name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Mobile Number"
+        android:layout_marginTop="20dp"
+        android:inputType="phone"
+        android:id="@+id/mobile"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email Id"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter Your Address"
+
+       android:id="@+id/daddress"
+       android:layout_marginTop="10dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:entries="@array/Districts"
+        android:id="@+id/sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetOrgnizations"
+        android:layout_marginTop="10dp"
+        android:onClick="getOrganizations"
+        />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:entries="@array/Organizations"
+                android:id="@+id/org"
+                />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="TYPE OF DONATION"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/type"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOOD"
+        android:id="@+id/food"
+        />
+   <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="CLOTHES"
+        android:id="@+id/clothes"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOOKS"
+        android:id="@+id/books"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MONEY"
+        android:id="@+id/money"
+        />
+    <CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="OTHERS"
+    android:id="@+id/others"/>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+       android:id="@+id/submit"
+        android:text="SUBMIT"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+    </LinearLayout>
+
+</ScrollView>
